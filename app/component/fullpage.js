@@ -85,9 +85,9 @@ function HeroP(){
           <p className="mb-4 font-semibold text-indigo-500 md:mb-6 md:text-lg xl:text-xl">
             Very proud to introduce
           </p>
-          <h1 className="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">
+          <h2 className="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">
             Revolutionary way to build the web
-          </h1>
+          </h2>
           <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
             This is a section of some simple filler text, also known as
             placeholder text. It shares some characteristics of a real written

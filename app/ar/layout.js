@@ -2,10 +2,9 @@ import Footer from "../component/footer"
 import Header from "../component/header"
 
 export const metadata = {
-    title: "تعال إلى    ",
+    title: "وايت ماء شمال الرياض - حلول موثوقة ونقية لتوريد المياه السكنية والتجارية ",
 
-    description: ' وتعطل الشارترايز جزار النخبة',
-}
+    description: 'اكتشف وايت ماء شمال الرياض - مصدرك الموثوق لحلول توريد المياه النقية والموثوقة. نلبي الاحتياجات السكنية والتجارية، ونضمن الوصول المستمر إلى مياه ذات جودة عالية '}
 
 export default function ArLayout({ children }) {
     return (

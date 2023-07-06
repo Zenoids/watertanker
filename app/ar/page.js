@@ -1,70 +1,35 @@
-export default function ArHome(){
-    return(
-        <>
+import Image from 'next/image'
+import Review from '../component/testimonial'
+import MainHero from '../component/mainhero'
+import HeroP from '../component/HeroP'
+import TwoService from '../component/twoservice'
+import Features from '../component/feature'
+import Stats from '../component/stats'
+import Heroimage from '../component/heroimage'
+import Cta from '../component/cta'
+import Choose from '../component/choose'
+import Choosesimple from '../component/choosesimple'
+import Gallery from '../component/gallery'
+import ContactForm from '../component/contactform'
 
-<section className="text-gray-600 body-font bg-white">
-  <div className="container px-5 py-24 mx-auto flex flex-col">
-    <div className="lg:w-4/6 mx-auto">
-      <div className="rounded-lg h-64 overflow-hidden">
-        <img
-          alt="content"
-          className="object-cover object-center h-full w-full"
-          src="https://dummyimage.com/1200x500"
-        />
-      </div>
-      <div className="flex flex-col sm:flex-row mt-10">
-        <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-          <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-            <svg
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              className="w-10 h-10"
-              viewBox="0 0 24 24"
-            >
-              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
-              <circle cx={12} cy={7} r={4} />
-            </svg>
-          </div>
-          <div className="flex flex-col items-center text-center justify-center">
-            <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
-            تعال إلى
-            </h2>
-            <div className="w-12 h-1 bg-green-500 rounded mt-2 mb-4" />
-            <p className="text-base">
-            Raclette Knausgaard دبوس المينا هيلا ميجز نوركوركور ويليامسبيرج
-              سارتوريال فينمو دجاج حار جنتريفي بورتلاند.
 
-            </p>
-          </div>
-        </div>
-        <div className="sm:w-2/3 sm:pr-8 sm:py-8 sm:border-r border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-right">
-          <p className="leading-relaxed text-lg mb-4">
-          Meggings بورتلاند Fingerstache lyft ، رجل مثبت ما بعد السخرية بن بانه مي أومامي كل يوم يحمل سداسي الزوايا locavore مباشرة حفلة فنية تجارية. حقيبة لوكافور صغيرة الحجم من المزرعة من المزرعة إلى المائدة. كتاب تلوين الفانيلا truffaut الحرفية البيرة شرب الخل sartorial ، تعطيل الأزياء الفأس نوركوركور مه جزار. قام عالم vexillologist في بورتلاند 90 في البحث عن الأعلاف بعد السخرية غير المتكافئة ، وتعطل الشارترايز جزار النخبة المثقفة قبل أن يبيعوا أربعة من loko. 3 وولف مون بروكلين.
 
-          </p>
-          <a className="text-green-500 inline-flex items-center">
-            Learn More
-            <svg
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              className="w-4 h-4 ml-2"
-              viewBox="0 0 24 24"
-            >
-              <path d="M5 12h14M12 5l7 7-7 7" />
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+export default function ArHome() {
+  return (
 
-        </>
-    )
+
+<>
+{/* <Heroimage/> */}
+<HeroP ar={true}/>
+{/* <MainHero/> */}
+{/* <TwoService/> */}
+<Features ar={true}/>
+<Stats ar={true}/>
+<Choosesimple ar={true}/>
+<Cta ar={true}/>
+<Review ar={true}/>
+<Gallery ar={true}/>
+<ContactForm ar={true}/>
+</>
+  )
 }

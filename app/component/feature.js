@@ -1,79 +1,100 @@
 
-function FeautreP({title, para}){
+function FeautreP({title, para, bg}){
     return(<>
-            <div className="flex gap-4 md:gap-6">
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-              />
-            </svg>
-          </div>
-          <div>
-            <h3 className="mb-2 text-lg font-semibold md:text-xl">{title}</h3>
-            <p className="mb-2 text-gray-500">
+            <div className="flex gap-4 drop-shadow-xl md:gap-6 hover:bg-gray-50  hover:scale-105 transition-all  bg-cover rounded-md" style={{ 
+        backgroundImage: `url(/${bg})`, }}>
+         
+          <div style={{backgroundColor: 'rgba(0, 0, 0, 0.35)'}} className="rounded p-12">
+            <h3 className="mb-2 text-lg font-semibold md:text-xl text-white ">{title}</h3>
+            <p className="mb-2 text-white">
              {para}
             </p>
-            <a
+            {/* <a
               href="#"
               className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
             >
               More
-            </a>
+            </a> */}
           </div>
         </div>
             </>
         
      )}
 
-export default function Features(){
+export default function Features({ar=false}){
     return(
- <>
+ <>{ar==false?
  <div className="bg-white py-6 sm:py-8 lg:py-12">
  <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
    {/* text - start */}
    <div className="mb-10 md:mb-16">
      <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
-       Our competitive advantage
+      Our Services
      </h2>
      <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-       This is a section of some simple filler text, also known as
-       placeholder text. It shares some characteristics of a real written
-       text but is random or otherwise generated.
+      We provide our 24/7 service accross riyadh 
      </p>
    </div>
    {/* text - end */}
    <div className="grid gap-8 sm:grid-cols-2 md:gap-12 xl:grid-cols-3 xl:gap-16">
      {/* feature - start */}
-     <FeautreP title={"Security"} para={" Filler text is dummy text which has no meaning however looks very similar to real text."} />
+     <FeautreP title={"Residential"} para={" Reliable and uninterrupted water supply for your home, ensuring pure and refreshing water at your fingertips, day and night"} bg={"home.webp"} />
      {/* feature - end */}
      {/* feature - start */}
-     <FeautreP title={"Security"} para={"Filler text is dummy tezt whcih has no meaning hower loos very similar to rel text."} />
+     <FeautreP title={"Commercial"} para={"Empower your business with Sweet Water Supply's seamless water solutions, ensuring uninterrupted and quality water supply for your commercial needs."} bg={"commercial.webp"}/>
      {/* feature - end */}
      {/* feature - start */}
-     <FeautreP title={"Security"} para={"Filler text is dummy tezt whcih has no meaning hower loos very similar to rel text."} />
+     <FeautreP title={"Swimming Pools"} para={"Dive into perfection with Sweet Water Supply, delivering crystal-clear water for your swimming pool, creating a refreshing oasis for your enjoyment"} bg={"swim1.webp"}/>
      {/* feature - end */}
      {/* feature - start */}
-     <FeautreP title={"Security"} para={"Filler text is dummy tezt whcih has no meaning hower loos very similar to rel text."} />
+     <FeautreP title={"Special Ocasions"} para={"Elevate your special occasions with Sweet Water Supply, providing impeccable water service that adds a touch of elegance and sophistication to your memorable events"} bg={"special.webp"} />
      {/* feature - end */}
      {/* feature - start */}
-     <FeautreP title={"Security"} para={"Filler text is dummy tezt whcih has no meaning hower loos very similar to rel text."} />
+     <FeautreP title={"Shopping Malls"} para={"Enhance the shopping experience at your mall with Sweet Water Supply, offering a reliable and hygienic water solution for patrons, keeping them refreshed throughout their visit."} bg={"mall.webp"} />
      {/* feature - end */}
      {/* feature - start */}
-     <FeautreP title={"Security"} para={"Filler text is dummy tezt whcih has no meaning hower loos very similar to rel text."} />
+     <FeautreP title={"Construction Sites"} para={"Keep your construction site hydrated and efficient with Sweet Water Supply, delivering a constant flow of clean water to support your project's needs, ensuring smooth operations on-site"} bg={"construction.webp"}/>
      {/* feature - end */}
    </div>
  </div>
-</div></>
+</div>:
+
+<div className="bg-white py-6 sm:py-8 lg:py-12">
+ <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+   {/* text - start */}
+   <div className="mb-10 md:mb-16">
+     <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
+     خدماتنا
+     </h2>
+     <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
+     نحن نقدم خدمتنا على مدار الساعة طوال أيام الأسبوع في جميع أنحاء الرياض
+
+     </p>
+   </div>
+   {/* text - end */}
+   <div className="grid gap-8 sm:grid-cols-2 md:gap-12 xl:grid-cols-3 xl:gap-16">
+     {/* feature - start */}
+     <FeautreP title={"سكني"} para={" إمدادات مياه موثوقة وغير منقطعة لمنزلك ، مما يضمن مياه نقية ومنعشة في متناول يدك ، ليلاً ونهارًا"} bg={"home.webp"} />
+     {/* feature - end */}
+     {/* feature - start */}
+     <FeautreP title={"تجاري"} para={"عزز أعمالك من خلال حلول المياه السلسة من Sweet Water Supply ، مما يضمن توفير إمدادات مياه عالية الجودة دون انقطاع لاحتياجاتك التجارية."} bg={"commercial.webp"}/>
+     {/* feature - end */}
+     {/* feature - start */}
+     <FeautreP title={"حوض سباحة"} para={"انغمس في الكمال مع Sweet Water Supply ، مما يوفر مياه نقية للغاية لحمام السباحة الخاص بك ، مما يخلق واحة منعشة لاستمتاعك"} bg={"swim1.webp"}/>
+     {/* feature - end */}
+     {/* feature - start */}
+     <FeautreP title={"مناسبات خاصة"} para={"ارتقِ بمناسباتك الخاصة مع Sweet Water Supply ، مما يوفر خدمة مياه لا تشوبها شائبة تضيف لمسة من الأناقة والرقي إلى أحداثك التي لا تنسى"} bg={"special.webp"} />
+     {/* feature - end */}
+     {/* feature - start */}
+     <FeautreP title={"مراكز التسوق"} para={"عزز تجربة التسوق في مركز التسوق الخاص بك باستخدام Sweet Water Supply ، مما يوفر حلاً موثوقًا وصحيًا للمياه للعملاء ، مما يحافظ على انتعاشهم طوال زيارتهم"} bg={"mall.webp"} />
+     {/* feature - end */}
+     {/* feature - start */}
+     <FeautreP title={"مواقع البناء"} para={"حافظ على موقع البناء الخاص بك رطبًا وفعالًا مع Sweet Water Supply ، مما يوفر تدفقًا مستمرًا من المياه النظيفة لدعم احتياجات مشروعك ، مما يضمن عمليات سلسة في الموقع"} bg={"construction.webp"}/>
+     {/* feature - end */}
+   </div>
+ </div>
+</div>}
+</>
 
 
     )
