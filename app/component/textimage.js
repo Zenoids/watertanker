@@ -108,7 +108,7 @@ export default function TextImage({ar}){
         About us
       </h1>
       <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
-      Sweet Water Supply is a trusted leader in the water supply industry, providing unparalleled service and uncompromising quality. With a firm commitment to delivering clean and safe water, we never settle for anything less than excellence. Our dedicated team ensures that every drop of water meets rigorous standards, giving you peace of mind and the assurance of a reliable water source. Whether it's for residential, commercial, or special event needs, we pride ourselves on our capacity to meet your requirements with precision and efficiency. Choose Sweet Water Supply for unmatched reliability, outstanding customer service, and a refreshing experience that surpasses expectations.
+      Sweet Water Supply is a trusted leader in the water supply industry, providing unparalleled service and uncompromising quality. With a firm commitment to delivering clean and safe water, we never settle for anything less than excellence. Our dedicated team ensures that every drop of water meets rigorous standards, giving you peace of mind and the assurance of a reliable water source. Whether its for residential, commercial, or special event needs, we pride ourselves on our capacity to meet your requirements with precision and efficiency. Choose Sweet Water Supply for unmatched reliability, outstanding customer service, and a refreshing experience that surpasses expectations.
       </p>
     </div>
   </div>
