@@ -78,7 +78,7 @@ export default function Tc() {
     reproduce, adapt, publish, translate and distribute it in any and all media.
   </p>
   <p>
-    Your Content must be your own and must not be invading any third-party's
+    Your Content must be your own and must not be invading any third-party&apos;s
     rights. Sweet Water Supply reserves the right to remove any of Your Content
     from this Website at any time without notice.
   </p>
