@@ -18,7 +18,7 @@ export default function Tc() {
     using this Website, you agreed to accept all terms and conditions written in
     here. You must not use this Website if you disagree with any of these
     Website Standard Terms and Conditions. These Terms and Conditions have been
-    generated with the help of the{" "}
+    generated with the help of the
     <a href="https://www.termsandcondiitionssample.com">
       Terms And Conditiions Sample Generator
     </a>
@@ -71,7 +71,7 @@ export default function Tc() {
   </p>
   <h2>Your Content</h2>
   <p>
-    In these Website Standard Terms and Conditions, "Your Content" shall mean
+    In these Website Standard Terms and Conditions, &quot;Your Content&quot; shall mean
     any audio, video text, images or other material you choose to display on
     this Website. By displaying Your Content, you grant Sweet Water Supply a
     non-exclusive, worldwide irrevocable, sub licensable license to use,
@@ -84,7 +84,7 @@ export default function Tc() {
   </p>
   <h2>No warranties</h2>
   <p>
-    This Website is provided "as is," with all faults, and Sweet Water Supply
+    This Website is provided &quot;as is,&quot; with all faults, and Sweet Water Supply
     express no representations or warranties, of any kind related to this
     Website or the materials contained on this Website. Also, nothing contained
     on this Website shall be interpreted as advising you.
