@@ -17,7 +17,8 @@ const Aboutus =()=>{
         <TextImage ar={true}/>
         <Stats ar={true} />
         <Review ar={true}/>
-        <Gallery ar={true}/> <br>
+        <Gallery ar={true}/>
+         <br>
           </br>       </>
     )
 }
