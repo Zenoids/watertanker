@@ -1,5 +1,3 @@
-import Header from "../component/header"
-import Footer from "../component/footer"
 import Foot from "../component/foot"
 import NewHeader from "../component/newHeader"
 
@@ -11,7 +9,6 @@ export const metadata = {
 export default function EnLayout({ children }) {
     return (
        <div >
-        {/* <Header  /> */}
        <NewHeader/>
         {children}
         <Foot />

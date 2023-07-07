@@ -1,5 +1,4 @@
 import ContactForm from "../../component/contactform";
-import FullPage from "../../component/fullpage";
 
 export const metadata = {
     title: 'Contact Sweet Water Supply - Get in Touch for Reliable Water Solutions ',
@@ -8,7 +7,6 @@ export const metadata = {
 
 export default function Contact(){
     return(<><ContactForm/>
-        {/* <FullPage/> */}
 </>
     )
 }
