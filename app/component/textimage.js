@@ -1,5 +1,5 @@
 import Image from "next/image"
-import img1 from "../../public/watertanker1.png"
+import img1 from "../../public/hero.jpeg"
 
 export default function TextImage({ar}){
   return (<>
@@ -11,8 +11,10 @@ export default function TextImage({ar}){
       <div>
         <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
           <Image
-            src={img1}
+            src={"/hero.jpeg"}
             loading="lazy"
+            width={600}
+            height={500}
             alt="Photo by Martin Sanchez"
             className="h-full w-full object-cover object-center"
           />

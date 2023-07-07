@@ -121,7 +121,7 @@ export default function Footer({ar}){
         rel="noopener noreferrer"
         target="_blank"
       >
-        zenoids.com
+        Zenoids
       </a>
     </p>
     <span className="inline-flex  px-20  sm:mt-0 mt-4 justify-center sm:justify-end">
@@ -296,7 +296,7 @@ export default function Footer({ar}){
       rel="noopener noreferrer"
       target="_blank"
     >
-      zenoids.com
+      Zenoids
     </a>
   </p>
   <span className="inline-flex sm:ms-auto sm:mt-0 mt-4 justify-center sm:justify-start">
