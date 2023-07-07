@@ -90,8 +90,8 @@ export default function Review({ ar = false }) {
              onSlideChange={() => console.log('slide change')}
              onSwiper={(swiper) => console.log(swiper)}
            >{card.map((item, index) => (
-             <SwiperSlide>
-               <Test key={index} name={item.name} para={item.para} img={item.img} area={item.area} />
+             <SwiperSlide key={index}>
+               <Test  name={item.name} para={item.para} img={item.img} area={item.area} />
              </SwiperSlide>))}
 
 

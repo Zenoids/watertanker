@@ -90,8 +90,8 @@ export default function Choosesimple({ ar = false }) {
               onSlideChange={() => console.log('slide change')}
               onSwiper={(swiper) => console.log(swiper)}
             >{card.map((item, index) => (
-              <SwiperSlide>
-                <Sim key={index} title={item.title} para={item.para} bg={item.bg} />
+              <SwiperSlide key={index}> 
+                <Sim  title={item.title} para={item.para} bg={item.bg} />
               </SwiperSlide>))}
 
 

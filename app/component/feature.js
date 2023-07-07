@@ -85,8 +85,8 @@ export default function Features({ ar = false }) {
               onSlideChange={() => console.log('slide change')}
               onSwiper={(swiper) => console.log(swiper)}
             >{card.map((item, index) => (
-              <SwiperSlide>
-                <FeatureP key={index} title={item.title} para={item.para} bg={item.bg} />
+              <SwiperSlide key={index}>
+                <FeatureP  title={item.title} para={item.para} bg={item.bg} />
               </SwiperSlide>))}
 
 
