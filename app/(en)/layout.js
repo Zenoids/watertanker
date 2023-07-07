@@ -1,6 +1,7 @@
 import Header from "../component/header"
 import Footer from "../component/footer"
 import Foot from "../component/foot"
+import NewHeader from "../component/newHeader"
 
 export const metadata = {
     title: 'Sweet Water Supply - Reliable and Clean Water Solutions for Residential and Commercial Needs',
@@ -9,8 +10,9 @@ export const metadata = {
 
 export default function EnLayout({ children }) {
     return (
-       <div ><Header  />
-       
+       <div >
+        {/* <Header  /> */}
+       <NewHeader/>
         {children}
         <Foot />
        </div>

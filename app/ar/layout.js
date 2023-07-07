@@ -1,6 +1,7 @@
 import Foot from "../component/foot"
 import Footer from "../component/footer"
 import Header from "../component/header"
+import NewHeader from "../component/newHeader"
 
 export const metadata = {
     title: "وايت ماء شمال الرياض - حلول موثوقة ونقية لتوريد المياه السكنية والتجارية ",
@@ -10,7 +11,8 @@ export const metadata = {
 export default function ArLayout({ children }) {
     return (
         <div lang="ar" dir="rtl">
-            <Header ar={true} />
+            {/* <Header ar={true} /> */}
+            <NewHeader ar={true}/>
             {children}
             {/* <Footer ar={true} /> */}
 <Foot ar={true}/>
