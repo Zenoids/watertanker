@@ -13,7 +13,9 @@ const Aboutus =()=>{
         <TextImage/>
         <Stats />
         <Review/>
-        <Gallery/>        </>
+        <Gallery/>  
+          <br>
+          </br> </>
     )
 }
 export default Aboutus
