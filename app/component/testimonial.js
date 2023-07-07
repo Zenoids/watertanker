@@ -1,6 +1,17 @@
+"use client"
+import React, { useEffect, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y,Autoplay } from 'swiper/modules';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css';
 import Image from "next/image"
 
+
 function Test({ para, name, area, img }) {
+
   return (
     <div className="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8 hover:scale-105 transition-all">
       <div className=" text-gray-600">
@@ -30,6 +41,21 @@ function Test({ para, name, area, img }) {
 }
 
 export default function Review({ ar = false }) {
+  const [isMobileView, setIsMobileView] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const { innerWidth } = window;
+      setIsMobileView(innerWidth <= 640); // Adjust the threshold as per your requirements
+    };
+
+    handleResize(); // Initial check
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   const title = ar ? "موثوق به من قبل الأفضل" : "Trusted by the Best"
   const card = ar
     ? [
@@ -47,14 +73,38 @@ export default function Review({ ar = false }) {
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         <h2 className="mb-8 text-center text-2xl font-bold text-gray-800 md:mb-8 lg:text-3xl">
           {title}        </h2>
-        <div className="grid gap-y-10 sm:grid-cols-2 sm:gap-y-12 lg:grid-cols-3 lg:divide-x">
-          {card.map((item, index) => {
-            return (
-              <Test key={index} name={item.name} para={item.para} img={item.img} area={item.area} />)
-          })
-          }
+          {isMobileView ?
+           
+           <Swiper
+             modules={[Navigation, Scrollbar, A11y, Autoplay]}
+             navigation
+             autoplay={{
+               delay: 4000,
+               disableOnInteraction: false,
+             }}
+             // speed={1000}
+             // pagination={{ clickable: true }}
+            //  scrollbar={{ draggable: true }}
+             spaceBetween={50}
+             slidesPerView={1}
+             onSlideChange={() => console.log('slide change')}
+             onSwiper={(swiper) => console.log(swiper)}
+           >{card.map((item, index) => (
+             <SwiperSlide>
+               <Test key={index} name={item.name} para={item.para} img={item.img} area={item.area} />
+             </SwiperSlide>))}
+
+
+           </Swiper>
+           :   <div className="grid gap-y-10 sm:grid-cols-2 sm:gap-y-12 lg:grid-cols-3 lg:divide-x">
+           {card.map((item, index) => {
+             return (
+               <Test key={index} name={item.name} para={item.para} img={item.img} area={item.area} />)
+           })
+           }
+           </div>
+       }
         </div>
       </div>
-    </div>
   )
 }
