@@ -24,7 +24,7 @@ const NewHeader = ({ ar }) => {
   };
 
   const styleNav = scrolled ? "inline-flex items-center text-white border-0 py-1 px-5 focus:outline-none rounded text-base mt-4 md:mt-0 hover:scale-115 hover:border-b-4 hover:border-b-[#666666] transition-all hover:pb-3" : "inline-flex items-center text-[#145CAA] border-0 py-1 px-5 focus:outline-none rounded text-base mt-4 md:mt-0 hover:scale-115 hover:border-b-4 hover:border-b-[#666666] transition-all hover:pb-3";
-  const styleMobileMenu = `md:flex  ${menuOpen ? 'hidden' : 'flex'}`;
+  const styleMobileMenu = `hidden md:flex  ${menuOpen ?  'flex':'hidden'}`;
 
   const language = ar ? 'English' : 'العربية';
   const homeLink = ar ? '/ar' : '/';

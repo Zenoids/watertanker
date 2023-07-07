@@ -87,8 +87,8 @@ export default function Choosesimple({ ar = false }) {
               scrollbar={{ draggable: true }}
               spaceBetween={50}
               slidesPerView={1}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={(swiper) => console.log(swiper)}
+              // onSlideChange={() => console.log('slide change')}
+              // onSwiper={(swiper) => console.log(swiper)}
             >{card.map((item, index) => (
               <SwiperSlide key={index}> 
                 <Sim  title={item.title} para={item.para} bg={item.bg} />

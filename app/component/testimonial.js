@@ -87,8 +87,8 @@ export default function Review({ ar = false }) {
             //  scrollbar={{ draggable: true }}
              spaceBetween={50}
              slidesPerView={1}
-             onSlideChange={() => console.log('slide change')}
-             onSwiper={(swiper) => console.log(swiper)}
+            //  onSlideChange={() => console.log('slide change')}
+            //  onSwiper={(swiper) => console.log(swiper)}
            >{card.map((item, index) => (
              <SwiperSlide key={index}>
                <Test  name={item.name} para={item.para} img={item.img} area={item.area} />
