@@ -6,7 +6,7 @@ import React from 'react'
     <div className="xl:w-1/3 md:w-1/2 p-4 ">
         <div className="border border-gray-200 p-6 rounded-lg bg-gray-100 hover:scale-105 transition-all" >
          
-          <h3 className="mb-6 text-center text-xl font-bold text-gray-800 md:mb-6 lg:text-xl">
+          <h3 className="mb-6 text-center text-xl font-bold text-[#145CAA] md:mb-6 lg:text-xl">
           {  title}
           </h3>
           <p className="leading-relaxed text-base">
@@ -29,7 +29,7 @@ export default function Choosesimple({ar=false}) {
       <h2 className="mb-8 text-center text-2xl font-bold text-gray-800 md:mb-12 lg:text-3xl">
        Why Choose Us?
       </h2>
-      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+      <p className="lg:w-1/2 w-full leading-relaxed text-[#666666]">
       Delivering Uncompromising Quality, Capacity, and Reliability: Your Trusted Water Tanker Supplier in Riyadh, ensuring safe and timely deliveries while offering cost-effective solutions that exceed expectations
       </p>
     </div>
@@ -55,7 +55,7 @@ Customer Satisfaction' para='We prioritize customer satisfaction and strive to e
     <h2 className="mb-8 text-center text-2xl font-bold text-gray-800 md:mb-12 lg:text-3xl">
     لماذا أخترتنا؟
     </h2>
-    <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+    <p className="lg:w-1/2 w-full leading-relaxed text-[#666666]">
     تقديم جودة وسعة وموثوقية لا هوادة فيها: مورد صهاريج المياه الموثوق به في الرياض ، مما يضمن عمليات تسليم آمنة وفي الوقت المناسب مع تقديم حلول فعالة من حيث التكلفة تتجاوز التوقعات
     </p>
   </div>

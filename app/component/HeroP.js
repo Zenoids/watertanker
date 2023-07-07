@@ -19,24 +19,12 @@ export default function HeroP({ar=false}){
       We have the solution for your water needs, Our round the clock service will take care of your water needs<br/> 
       </h3>
       <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
-      <a href='http://wa.me/0509201569'><button className="hover:scale-105 inline-flex transition-all text-blue-500 border-blue-500 bg-white border-2 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-md text-lg hover:text-white">
+      <a href='http://wa.me/0509201569'><button className="hover:scale-105 inline-flex transition-all text-[#145CAA] border-[#145CAA] bg-white border-2 py-2 px-6 focus:outline-none hover:bg-[#145CAA] rounded-md text-lg hover:text-white">
           Book Now 
           </button></a>
       </div>
     </div>
-    {/* content - end */}
-    {/* image - start */}
-    {/* <div className="h-48  lg:h-auto xl:w-5/12">
-      <Image
-        src="/herol.jpg"
-        loading="lazy"
-        alt="droplet"
-        className="h-full w-full object-cover object-center rounded-xl"
-        width={350}
-        height={350}
-      />
-    </div> */}
-    {/* image - end */}
+ 
   </section>
   </div>
   </div>
@@ -59,25 +47,13 @@ export default function HeroP({ar=false}){
 <br/> 
   </h3>
   <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
-  <a href='http://wa.me/0509201569'><button className="hover:scale-105 inline-flex transition-all text-blue-500 border-blue-500 bg-white border-2 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-md text-lg hover:text-white">
+  <a href='http://wa.me/0509201569'><button className="hover:scale-105 inline-flex transition-all text-[#145CAA] border-[#145CAA] bg-white border-2 py-2 px-6 focus:outline-none hover:bg-[#145CAA] rounded-md text-lg hover:text-white">
   احجز الآن
  
       </button></a>
   </div>
 </div>
-{/* content - end */}
-{/* image - start */}
-{/* <div className="h-48  lg:h-auto xl:w-5/12">
-  <Image
-    src="/herol.jpg"
-    loading="lazy"
-    alt="droplet"
-    className="h-full w-full object-cover object-center rounded-xl"
-    width={350}
-    height={350}
-  />
-</div> */}
-{/* image - end */}
+
 </section>
 </div>
 </div>

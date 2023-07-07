@@ -18,7 +18,7 @@ export default function Cta({ar=false}) {
          We will try to fulfill your order as soon as possible 
         </h3>
         <div className="flex ">
-          <Link href='/contact'><button className="hover:scale-105 inline-flex transition-all text-blue-500 border-blue-500 bg-white border-2 py-2 px-6 focus:outline-none mx-2 hover:bg-blue-600 rounded-md text-lg hover:text-white">
+          <Link href='/contact'><button className="hover:scale-105 inline-flex transition-all text-[#145CAA] border-[#145CAA] bg-white border-2 py-2 px-6 focus:outline-none mx-2 hover:bg-[#145CAA] rounded-md text-lg hover:text-white">
                    Contact Us 
 
           </button></Link>
@@ -42,7 +42,7 @@ export default function Cta({ar=false}) {
         سنحاول تلبية طلبك في أقرب وقت ممكن
         </h3>
         <div className="flex ">
-          <Link href='/contact'><button className="hover:scale-105 inline-flex transition-all text-blue-500 border-blue-500 bg-white border-2 py-2 px-6 focus:outline-none mx-2 hover:bg-blue-600 rounded-md text-lg hover:text-white">
+          <Link href='/contact'><button className="hover:scale-105 inline-flex transition-all text-[#145CAA] border-[#145CAA] bg-white border-2 py-2 px-6 focus:outline-none mx-2 hover:bg-[#145CAA] rounded-md text-lg hover:text-white">
           تواصل معنا
           </button></Link>
           <a href='http://wa.me/0509201569'><button className="hover:scale-105 inline-flex transition-all text-green-500 border-green-500 bg-white border-2 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-md text-lg hover:text-white">

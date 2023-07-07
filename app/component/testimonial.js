@@ -21,9 +21,9 @@ import Image from "next/image"
             />
           </div>
           <div>
-            <div className="text-center text-sm font-bold text-blue-500 sm:text-start md:text-base">
+            <div className="text-center text-sm font-bold text-[#145CAA] sm:text-start md:text-base">
 {name}            </div>
-            <p className="text-center text-sm text-gray-500 sm:text-start md:text-sm">
+            <p className="text-center text-sm text-[#666666] sm:text-start md:text-sm">
              {area}
             </p>
           </div>

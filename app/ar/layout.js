@@ -1,3 +1,4 @@
+import Foot from "../component/foot"
 import Footer from "../component/footer"
 import Header from "../component/header"
 
@@ -11,8 +12,8 @@ export default function ArLayout({ children }) {
         <div lang="ar" dir="rtl">
             <Header ar={true} />
             {children}
-            <Footer ar={true} />
-
+            {/* <Footer ar={true} /> */}
+<Foot ar={true}/>
         </div>
 
     )

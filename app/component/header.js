@@ -5,19 +5,19 @@ import Link from "next/link";
 
 export default function Header({ ar }) {
 
-  const styleNav = "inline-flex items-center text-violet-900 border-0 py-1 px-5 focus:outline-none rounded text-base mt-4 md:mt-0 hover:scale-115 hover:border-b-4 hover:border-b-blue-300 transition-all hover:pb-3"
+  const styleNav = "inline-flex items-center text-white border-0 py-1 px-5 focus:outline-none rounded text-base mt-4 md:mt-0 hover:scale-115 hover:border-b-4 hover:border-b-[#666666] transition-all hover:pb-3"
 
   return (<>
     {
       ar == true ?
-        <header className="text-gray-600 body-font bg-white"   >
-          <div className="bg-slate-600 text-white  px-8  "><div>الاتصال :۹٦٦ ۰٥۰۹۲۰۱٥٦۹|+۹٦٦ ۰٥۹۷٤۲٤۷۹٦ </div></div>
+        <header className="text-gray-600 body-font bg-gray-800"   >
+          {/* <div className="bg-slate-600 text-white  px-8  "><div>الاتصال :۹٦٦ ۰٥۰۹۲۰۱٥٦۹|+۹٦٦ ۰٥۹۷٤۲٤۷۹٦ </div></div> */}
 
           <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
             <Link href="/ar" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <Image
               alt="logo"
-                src={"/logo1.png"}
+                src={"/logowhite.png"}
                 height={100}
                 width={130} />
               {/* <span className="ml-3 text-xl">وايت ماء شمال الرياض</span> */}
@@ -45,14 +45,14 @@ export default function Header({ ar }) {
           </div>
         </header>
         :
-        <header className="text-gray-600 body-font bg-white"   >
-          <div className="bg-slate-600 text-white  px-8  "><div>CALL: +966 0509201569 | +966 0597424796</div></div>
+        <header className="text-gray-600 body-font bg-gray-800"   >
+          {/* <div className="bg-slate-600 text-white  px-8  "><div>CALL: +966 0509201569 | +966 0597424796</div></div> */}
 
           <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
             <Link href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
               <Image
               alt="logo"
-              src={"/logo1.png"}
+              src={"/logowhite.png"}
                 height={100}
                 width={130} 
               />
@@ -70,8 +70,7 @@ export default function Header({ ar }) {
 
             </nav>
             <Link href={'/ar'}> <button className={styleNav}>
-              عربي
-
+            العربية
 
             </button></Link>
           </div>
