@@ -29,7 +29,7 @@ export default function Stats({ ar = false }) {
   return (
    
       <div className="  bg-cover bg-fixed h-4/5 bg-left" style={{
-        backgroundImage: `url("/hero.jpeg")`
+        backgroundImage: `url("/hero.webp")`
       }}>
         <div className="py-6 sm:py-8 lg:py-12  px-4 md:px-8 " style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
           <div className="mb-10 md:mb-16 ">

@@ -19,7 +19,7 @@ function Gallery({ar=false}) {
           <Image
             alt="gallery"
             className="w-full object-cover h-full object-center block rounded-xl"
-            src="/night.jpeg"
+            src="/night.webp"
             width={500}
             height={300}
           />
@@ -28,7 +28,7 @@ function Gallery({ar=false}) {
           <Image
             alt="gallery"
             className="w-full object-cover h-full object-center block rounded-xl"
-            src="/herob.jpeg"
+            src="/herob.webp"
             width={500}
             height={300}
           />
@@ -37,7 +37,7 @@ function Gallery({ar=false}) {
           <Image
             alt="gallery"
             className="w-full h-full object-cover object-center block rounded-xl"
-            src="/hero.jpeg"
+            src="/hero.webp"
             width={600}
             height={360}
           />
@@ -48,7 +48,7 @@ function Gallery({ar=false}) {
           <Image
             alt="gallery"
             className="w-full h-full object-cover object-center block rounded-xl"
-            src="/long.jpeg"
+            src="/long.webp"
             height={600}
             width={360}
           />

@@ -3,7 +3,7 @@ export default function HeroP({ ar = false }) {
   const title = ar ? "وايت ماء شمال الرياض" : "Sweet Water Supply";
   const para = ar ? "  لدينا الحل لاحتياجاتك من المياه خدمتنا على مدار الساعة ستهتم باحتياجاتك من المياه" : "  We have the solution for your water needs, Our round the clock service will take care of your water needs"
   const book = ar ? "  احجز الآن" : "Book Now ";
-  const imgsrc=ar? "/herol.jpg":"/hero.jpeg";
+  const imgsrc=ar? "/herol.webp":"/hero.webp";
 
   return (
     <div className="  bg-cover h-4/5 bg-left" style={{

@@ -29,15 +29,15 @@ export default function TwoService({ ar = false }) {
       <section className="text-gray-600 body-font bg-white">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -mx-4 -mb-10 text-center">
-            <Serv title={"Water Tanker 1"} img={"/long.jpeg"} para={"32000 liters of fresh Water, along with water pump for faster filling."}/>
-            <Serv title={"Water Tanker 2"} img={"/herob.jpeg"} para={" 18000 liters of normal potable water for swimming and other purposes with motor."}/>
+            <Serv title={"Water Tanker 1"} img={"/long.webp"} para={"32000 liters of fresh Water, along with water pump for faster filling."}/>
+            <Serv title={"Water Tanker 2"} img={"/herob.webp"} para={" 18000 liters of normal potable water for swimming and other purposes with motor."}/>
           </div>
         </div>
       </section> : <section className="text-gray-600 body-font bg-white">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -mx-4 -mb-10 text-center">
-            <Serv title={"صهريج مياه 1"} img={"/long.jpeg"} para={"32000 لتر من المياه العذبة مع مضخة مياه لتعبئة أسرع."}/>
-            <Serv title={"صهريج مياه 2"} img={"/long.jpeg"} para={"18000 لتر من مياه الشرب العادية للسباحة ولأغراض أخرى مع الموتور."}/>
+            <Serv title={"صهريج مياه 1"} img={"/long.webp"} para={"32000 لتر من المياه العذبة مع مضخة مياه لتعبئة أسرع."}/>
+            <Serv title={"صهريج مياه 2"} img={"/long.webp"} para={"18000 لتر من مياه الشرب العادية للسباحة ولأغراض أخرى مع الموتور."}/>
           </div>
         </div>
       </section>}

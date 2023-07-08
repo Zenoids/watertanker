@@ -26,7 +26,7 @@ export default function Foot({ ar = false }) {
         <div className="sm:flex sm:items-center sm:justify-between">
           <Link href={homeLink} className="flex items-center mb-4 sm:mb-0">
             <Image
-              src="/logowhite.png"
+              src="/logowhite.webp"
               className=" me-3"
               alt="Flowbite Logo"
               width={130}

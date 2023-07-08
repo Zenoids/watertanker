@@ -10,7 +10,7 @@ export default function Cta({ ar = false }) {
   const b2 = ar ? "  WhatsApp معنا" : "WhatsApp Us   ";
 
   return (
-    <section className="text-white body-font bg-cover bg-center 	" style={{ backgroundImage: `url("/night.jpeg")`, }}>
+    <section className="text-white body-font bg-cover bg-center 	" style={{ backgroundImage: `url("/night.webp")`, }}>
       <div className=" mx-auto flex px-5 py-20 md:flex-row flex-col items-center  " style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
 
         <div className="lg:flex-grow md:w-1/2  flex flex-col md:items-center md:text-center items-center text-center">
