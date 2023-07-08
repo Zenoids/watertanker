@@ -45,7 +45,7 @@ const NewHeader = ({ ar }) => {
 
   return (
     <header className={`${scrolled ? 'sticky top-0 bg-gray-800 transition-all z-50' : 'bg-white'}`}>
-      <div className={`${scrolled ? 'max-w-screen-xl container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center' : 'container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center'}`}>
+      <div className={`${scrolled ? 'max-w-screen-xl container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center' : ' max-w-screen-xl  container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center'}`}>
         <Link href={homeLink} className={`${scrolled ? 'flex title-font font-medium items-center text-gray-900' : 'flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'}`}>
           <Image alt="logo" src={scrolled ? '/logowhite.webp' : '/logo1.webp'} height={100} width={130} />
         </Link>
