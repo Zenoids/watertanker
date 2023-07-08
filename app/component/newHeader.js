@@ -45,7 +45,7 @@ const NewHeader = ({ ar }) => {
 
   return (
     <header className={`${scrolled ? 'sticky top-0 bg-gray-800 transition-all z-50' : 'bg-white'}`}>
-      <div className={`${scrolled ? 'container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center' : 'container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center'}`}>
+      <div className={`${scrolled ? 'max-w-screen-xl container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center' : 'container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center'}`}>
         <Link href={homeLink} className={`${scrolled ? 'flex title-font font-medium items-center text-gray-900' : 'flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'}`}>
           <Image alt="logo" src={scrolled ? '/logowhite.webp' : '/logo1.webp'} height={100} width={130} />
         </Link>
@@ -57,9 +57,9 @@ const NewHeader = ({ ar }) => {
           ))}
         </nav>
         <div className={`${scrolled ? 'md:ms-auto flex flex-wrap items-center text-base justify-center' : 'md:ms-auto flex flex-wrap items-center text-base justify-center'} sm:flex    ${styleMobileMenu} `}>
-        <Link href={ar ? '/' : '/ar'}>
-          <button className={styleNav}>{language}</button>
-        </Link></div>
+          <Link href={ar ? '/' : '/ar'}>
+            <button className={styleNav}>{language}</button>
+          </Link></div>
         <button className="sm:hidden" onClick={handleMenuToggle}>
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
