@@ -17,7 +17,7 @@ export default function TextImage({ ar }) {
                 loading="lazy"
                 width={600}
                 height={500}
-                alt="Photo by Martin Sanchez"
+                alt="water tanker image"
                 className="h-full w-full object-cover object-center"
               />
             </div>

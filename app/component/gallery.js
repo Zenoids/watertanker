@@ -17,7 +17,7 @@ function Gallery({ar=false}) {
       <div className="flex flex-wrap w-1/2 ">
         <div className="md:p-2 p-1 w-1/2 hover:scale-105 transition-all ">
           <Image
-            alt="gallery"
+            alt="tanker 1"
             className="w-full object-cover h-full object-center block rounded-xl"
             src="/night.webp"
             width={500}
@@ -26,7 +26,7 @@ function Gallery({ar=false}) {
         </div>
         <div className="md:p-2 p-1 w-1/2 hover:scale-105 transition-all ">
           <Image
-            alt="gallery"
+            alt="watert tanker 2"
             className="w-full object-cover h-full object-center block rounded-xl"
             src="/herob.webp"
             width={500}
@@ -35,7 +35,7 @@ function Gallery({ar=false}) {
         </div>
         <div className="md:p-2 p-1 w-full hover:scale-105 transition-all ">
           <Image
-            alt="gallery"
+            alt="water tanker 3"
             className="w-full h-full object-cover object-center block rounded-xl"
             src="/hero.webp"
             width={600}
@@ -46,7 +46,7 @@ function Gallery({ar=false}) {
       <div className="flex flex-wrap w-1/2">
         <div className="md:p-2 p-1 w-full hover:scale-105 transition-all ">
           <Image
-            alt="gallery"
+            alt="water tanker 4"
             className="w-full h-full object-cover object-center block rounded-xl"
             src="/long.webp"
             height={600}

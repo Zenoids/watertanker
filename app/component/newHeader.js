@@ -47,7 +47,7 @@ const NewHeader = ({ ar }) => {
     <header className={`${scrolled ? 'sticky top-0 bg-gray-800 transition-all z-50' : 'bg-white'}`}>
       <div className={`${scrolled ? 'xl:px-10 2xl:px-8 container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center' : ' 2xl:px-8  container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center'}`}>
         <Link href={homeLink} className={`${scrolled ? 'flex title-font font-medium items-center text-gray-900' : 'flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'}`}>
-          <Image alt="logo" src={scrolled ? '/logowhite.webp' : '/logo1.webp'} height={100} width={130} />
+          <Image alt="sweet water supply riyadh logo" src={scrolled ? '/logowhite.webp' : '/logo1.webp'} height={100} width={130} />
         </Link>
         <nav className={`${scrolled ? 'md:ms-auto md:mr-auto flex flex-wrap items-center text-base justify-center' : 'md:ms-auto md:mr-auto flex flex-wrap items-center text-base justify-center'} sm:flex  ${styleMobileMenu}`}>
           {navItems.map((item, index) => (

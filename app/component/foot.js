@@ -28,7 +28,7 @@ export default function Foot({ ar = false }) {
             <Image
               src="/logowhite.webp"
               className=" me-3"
-              alt="Flowbite Logo"
+              alt="Logo sweet water supply riyadh"
               width={130}
               height={130}
             />

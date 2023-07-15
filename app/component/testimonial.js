@@ -22,7 +22,7 @@ function Test({ para, name, area, img }) {
           <Image
             src={`${img}`}
             loading="lazy"
-            alt=" a man"
+            alt=" testimonial and review of users"
             className="h-full w-full object-cover object-center"
             width={50}
             height={50}
