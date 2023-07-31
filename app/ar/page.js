@@ -12,6 +12,7 @@ import ContactForm from '../component/contactform'
 
 
 export default function ArHome() {
+  
   return (
 
 
