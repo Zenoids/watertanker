@@ -7,7 +7,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css';
-import Image from "next/image"
+
+
 
 
 function Test({ para, name, area, img }) {
@@ -19,13 +20,14 @@ function Test({ para, name, area, img }) {
       </div>
       <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
         <div className="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
-          <Image
+          <img
             src={`${img}`}
             loading="lazy"
             alt=" testimonial and review of users"
             className="h-full w-full object-cover object-center"
             width={50}
             height={50}
+            
           />
         </div>
         <div>

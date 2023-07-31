@@ -12,7 +12,7 @@ export default function TextImage({ ar }) {
         <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
           <div>
             <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
-              <Image
+              <img
                 src={img}
                 loading="lazy"
                 width={600}

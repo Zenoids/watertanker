@@ -5,12 +5,13 @@ function Serv({ title, para, img }) {
     <>
       <div className="sm:w-1/2 mb-10 px-4">
         <div className="rounded-lg h-64 overflow-hidden">
-          <Image
+          <img
             alt="content"
             className="object-cover  h-full w-full"
             src={img}
             width={1000}
             height={100}
+            loading="lazy"
             style={{ objectPosition: "center -160px  " }}
           />
         </div>

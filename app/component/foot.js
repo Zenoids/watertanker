@@ -25,12 +25,13 @@ export default function Foot({ ar = false }) {
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <Link href={homeLink} className="flex items-center mb-4 sm:mb-0">
-            <Image
+            <img
               src="/logowhite.webp"
               className=" me-3"
               alt="Logo sweet water supply riyadh"
               width={130}
               height={130}
+              loading="lazy"
             />
           </Link>
 
