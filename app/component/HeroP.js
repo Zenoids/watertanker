@@ -20,7 +20,7 @@ export default function HeroP({ ar = false }) {
               <h3 className="mb-8 leading-relaxed text-white md:mb-12 lg:w-4/5 xl:text-lg">
                 {para}      </h3>
               <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
-                <a href='http://wa.me/0509201569'><button className="hover:scale-105 inline-flex transition-all text-[#145CAA] border-[#145CAA] bg-white border-2 py-2 px-6 focus:outline-none hover:bg-[#145CAA] rounded-md text-lg hover:text-white">
+                <a href='http://wa.me/9660509201569'><button className="hover:scale-105 inline-flex transition-all text-[#145CAA] border-[#145CAA] bg-white border-2 py-2 px-6 focus:outline-none hover:bg-[#145CAA] rounded-md text-lg hover:text-white">
                   {book}          </button></a>
               </div>
             </div>

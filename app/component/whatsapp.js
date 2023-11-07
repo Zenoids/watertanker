@@ -3,7 +3,7 @@ import React from 'react'
 export default function Whatsapp() {
   return (
     <>
-    <a href="https://wa.me/0509201569" target="_blank" className=' fixed bottom-2 right-5  hover:scale-125 transition-all hover:'>
+    <a href="https://wa.me/9660509201569" target="_blank" className=' fixed bottom-2 right-5  hover:scale-125 transition-all hover:'>
     <svg
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink"

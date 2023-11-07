@@ -27,7 +27,7 @@ export default function Cta({ ar = false }) {
               {b1}
 
             </button></Link>
-            <a href='http://wa.me/0509201569'><button className="hover:scale-105 inline-flex transition-all text-green-500 border-green-500 bg-white border-2 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-md text-lg hover:text-white">
+            <a href='http://wa.me/9660509201569'><button className="hover:scale-105 inline-flex transition-all text-green-500 border-green-500 bg-white border-2 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-md text-lg hover:text-white">
               {b2}</button></a>
           </div>
         </div>
